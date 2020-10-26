@@ -23,7 +23,6 @@ end
 def printer(attendees)
   batch_badge_creator(attendees).each{|badges| puts badges} 
   assign_rooms(attendees).each {|badges| puts badges} 
-  binding.pry 
 end 
  
     
